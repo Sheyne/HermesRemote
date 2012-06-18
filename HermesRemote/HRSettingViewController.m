@@ -25,13 +25,6 @@
         [self performSegueWithIdentifier:@"Connect" sender:self];
     } else {
         [self.navigationController popToViewController:self animated:YES];
-        UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Server Error" 
-                                                        message:@"The server is unavailable or disconnected." 
-                                                       delegate:nil 
-                                              cancelButtonTitle:@"OK"
-                                              otherButtonTitles:nil];
-        [alert show];
-
     }
 }
 
