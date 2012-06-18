@@ -1,5 +1,5 @@
 //
-//  HRSecondViewController.h
+//  HRStationCell.h
 //  HermesRemote
 //
 //  Created by Sheyne Anderson on 6/16/12.
@@ -7,7 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "HRStation.h"
 
-@interface HRSecondViewController : UIViewController
+@interface HRStationCell : UITableViewCell
+
+@property (nonatomic) HRStation *station;
 
 @end

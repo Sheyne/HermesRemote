@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		362B0294158EEE5F0010516B /* HRSettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 362B0293158EEE5F0010516B /* HRSettingViewController.m */; };
 		36395719158CED3D00D596E7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36395718158CED3D00D596E7 /* UIKit.framework */; };
 		3639571B158CED3D00D596E7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3639571A158CED3D00D596E7 /* Foundation.framework */; };
 		3639571D158CED3D00D596E7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3639571C158CED3D00D596E7 /* CoreGraphics.framework */; };
@@ -15,35 +16,45 @@
 		36395729158CED3D00D596E7 /* HRAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 36395728158CED3D00D596E7 /* HRAppDelegate.m */; };
 		3639572C158CED3D00D596E7 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3639572A158CED3D00D596E7 /* MainStoryboard_iPhone.storyboard */; };
 		3639572F158CED3D00D596E7 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3639572D158CED3D00D596E7 /* MainStoryboard_iPad.storyboard */; };
-		36395732158CED3D00D596E7 /* HRFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 36395731158CED3D00D596E7 /* HRFirstViewController.m */; };
-		36395734158CED3D00D596E7 /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = 36395733158CED3D00D596E7 /* first.png */; };
-		36395736158CED3D00D596E7 /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 36395735158CED3D00D596E7 /* first@2x.png */; };
-		36395739158CED3D00D596E7 /* HRSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 36395738158CED3D00D596E7 /* HRSecondViewController.m */; };
-		3639573B158CED3D00D596E7 /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = 3639573A158CED3D00D596E7 /* second.png */; };
-		3639573D158CED3D00D596E7 /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3639573C158CED3D00D596E7 /* second@2x.png */; };
+		36395748158CF3F600D596E7 /* HRStationsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 36395747158CF3F600D596E7 /* HRStationsViewController.m */; };
+		3639574B158CF4B400D596E7 /* HRStation.m in Sources */ = {isa = PBXBuildFile; fileRef = 3639574A158CF4B400D596E7 /* HRStation.m */; };
+		3639574E158CF9E500D596E7 /* HRStationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3639574D158CF9E500D596E7 /* HRStationViewController.m */; };
+		36395751158CFE0200D596E7 /* HRState.m in Sources */ = {isa = PBXBuildFile; fileRef = 36395750158CFE0200D596E7 /* HRState.m */; };
+		36395754158D05C300D596E7 /* HRStationCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 36395753158D05C300D596E7 /* HRStationCell.m */; };
+		36CEE436158ED2CC002CFEB4 /* GCDAsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 36CEE434158ED256002CFEB4 /* GCDAsyncSocket.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		36CEE438158ED36A002CFEB4 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36CEE437158ED36A002CFEB4 /* CFNetwork.framework */; };
+		36CEE43A158ED37F002CFEB4 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36CEE439158ED37F002CFEB4 /* Security.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		362B0292158EEE5F0010516B /* HRSettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HRSettingViewController.h; sourceTree = "<group>"; };
+		362B0293158EEE5F0010516B /* HRSettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HRSettingViewController.m; sourceTree = "<group>"; };
 		36395714158CED3D00D596E7 /* HermesRemote.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HermesRemote.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		36395718158CED3D00D596E7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		3639571A158CED3D00D596E7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		3639571C158CED3D00D596E7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		36395720158CED3D00D596E7 /* HermesRemote-Info.plist */ = {isa = PBXFileReference; path = "HermesRemote-Info.plist"; sourceTree = "<group>"; };
+		36395720158CED3D00D596E7 /* HermesRemote-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HermesRemote-Info.plist"; sourceTree = "<group>"; };
 		36395722158CED3D00D596E7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		36395724158CED3D00D596E7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		36395726158CED3D00D596E7 /* HermesRemote-Prefix.pch */ = {isa = PBXFileReference; path = "HermesRemote-Prefix.pch"; sourceTree = "<group>"; };
-		36395727158CED3D00D596E7 /* HRAppDelegate.h */ = {isa = PBXFileReference; path = HRAppDelegate.h; sourceTree = "<group>"; };
+		36395726158CED3D00D596E7 /* HermesRemote-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HermesRemote-Prefix.pch"; sourceTree = "<group>"; };
+		36395727158CED3D00D596E7 /* HRAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HRAppDelegate.h; sourceTree = "<group>"; };
 		36395728158CED3D00D596E7 /* HRAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HRAppDelegate.m; sourceTree = "<group>"; };
 		3639572B158CED3D00D596E7 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
 		3639572E158CED3D00D596E7 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
-		36395730158CED3D00D596E7 /* HRFirstViewController.h */ = {isa = PBXFileReference; path = HRFirstViewController.h; sourceTree = "<group>"; };
-		36395731158CED3D00D596E7 /* HRFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HRFirstViewController.m; sourceTree = "<group>"; };
-		36395733158CED3D00D596E7 /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
-		36395735158CED3D00D596E7 /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
-		36395737158CED3D00D596E7 /* HRSecondViewController.h */ = {isa = PBXFileReference; path = HRSecondViewController.h; sourceTree = "<group>"; };
-		36395738158CED3D00D596E7 /* HRSecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HRSecondViewController.m; sourceTree = "<group>"; };
-		3639573A158CED3D00D596E7 /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
-		3639573C158CED3D00D596E7 /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
+		36395746158CF3F600D596E7 /* HRStationsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HRStationsViewController.h; sourceTree = "<group>"; };
+		36395747158CF3F600D596E7 /* HRStationsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HRStationsViewController.m; sourceTree = "<group>"; };
+		36395749158CF4B400D596E7 /* HRStation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HRStation.h; sourceTree = "<group>"; };
+		3639574A158CF4B400D596E7 /* HRStation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HRStation.m; sourceTree = "<group>"; };
+		3639574C158CF9E500D596E7 /* HRStationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HRStationViewController.h; sourceTree = "<group>"; };
+		3639574D158CF9E500D596E7 /* HRStationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HRStationViewController.m; sourceTree = "<group>"; };
+		3639574F158CFE0200D596E7 /* HRState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HRState.h; sourceTree = "<group>"; };
+		36395750158CFE0200D596E7 /* HRState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HRState.m; sourceTree = "<group>"; };
+		36395752158D05C300D596E7 /* HRStationCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HRStationCell.h; sourceTree = "<group>"; };
+		36395753158D05C300D596E7 /* HRStationCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HRStationCell.m; sourceTree = "<group>"; };
+		36CEE433158ED255002CFEB4 /* GCDAsyncSocket.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GCDAsyncSocket.h; sourceTree = "<group>"; };
+		36CEE434158ED256002CFEB4 /* GCDAsyncSocket.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GCDAsyncSocket.m; sourceTree = "<group>"; };
+		36CEE437158ED36A002CFEB4 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		36CEE439158ED37F002CFEB4 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +62,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				36CEE43A158ED37F002CFEB4 /* Security.framework in Frameworks */,
+				36CEE438158ED36A002CFEB4 /* CFNetwork.framework in Frameworks */,
 				36395719158CED3D00D596E7 /* UIKit.framework in Frameworks */,
 				3639571B158CED3D00D596E7 /* Foundation.framework in Frameworks */,
 				3639571D158CED3D00D596E7 /* CoreGraphics.framework in Frameworks */,
@@ -63,6 +76,8 @@
 		36395709158CED3C00D596E7 = {
 			isa = PBXGroup;
 			children = (
+				36CEE439158ED37F002CFEB4 /* Security.framework */,
+				36CEE437158ED36A002CFEB4 /* CFNetwork.framework */,
 				3639571E158CED3D00D596E7 /* HermesRemote */,
 				36395717158CED3D00D596E7 /* Frameworks */,
 				36395715158CED3D00D596E7 /* Products */,
@@ -90,18 +105,14 @@
 		3639571E158CED3D00D596E7 /* HermesRemote */ = {
 			isa = PBXGroup;
 			children = (
+				365D0AA4158F87300080001A /* Libraries */,
+				365D0AA7158F87800080001A /* Models */,
+				365D0AA6158F87660080001A /* Views */,
+				365D0AA5158F87430080001A /* Controllers */,
 				36395727158CED3D00D596E7 /* HRAppDelegate.h */,
 				36395728158CED3D00D596E7 /* HRAppDelegate.m */,
 				3639572A158CED3D00D596E7 /* MainStoryboard_iPhone.storyboard */,
 				3639572D158CED3D00D596E7 /* MainStoryboard_iPad.storyboard */,
-				36395730158CED3D00D596E7 /* HRFirstViewController.h */,
-				36395731158CED3D00D596E7 /* HRFirstViewController.m */,
-				36395733158CED3D00D596E7 /* first.png */,
-				36395735158CED3D00D596E7 /* first@2x.png */,
-				36395737158CED3D00D596E7 /* HRSecondViewController.h */,
-				36395738158CED3D00D596E7 /* HRSecondViewController.m */,
-				3639573A158CED3D00D596E7 /* second.png */,
-				3639573C158CED3D00D596E7 /* second@2x.png */,
 				3639571F158CED3D00D596E7 /* Supporting Files */,
 			);
 			path = HermesRemote;
@@ -116,6 +127,48 @@
 				36395726158CED3D00D596E7 /* HermesRemote-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		365D0AA4158F87300080001A /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				36CEE433158ED255002CFEB4 /* GCDAsyncSocket.h */,
+				36CEE434158ED256002CFEB4 /* GCDAsyncSocket.m */,
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
+		365D0AA5158F87430080001A /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				362B0292158EEE5F0010516B /* HRSettingViewController.h */,
+				362B0293158EEE5F0010516B /* HRSettingViewController.m */,
+				3639574C158CF9E500D596E7 /* HRStationViewController.h */,
+				3639574D158CF9E500D596E7 /* HRStationViewController.m */,
+				36395746158CF3F600D596E7 /* HRStationsViewController.h */,
+				36395747158CF3F600D596E7 /* HRStationsViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		365D0AA6158F87660080001A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				36395752158D05C300D596E7 /* HRStationCell.h */,
+				36395753158D05C300D596E7 /* HRStationCell.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		365D0AA7158F87800080001A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				36395749158CF4B400D596E7 /* HRStation.h */,
+				3639574A158CF4B400D596E7 /* HRStation.m */,
+				3639574F158CFE0200D596E7 /* HRState.h */,
+				36395750158CFE0200D596E7 /* HRState.m */,
+			);
+			name = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -173,10 +226,6 @@
 				36395723158CED3D00D596E7 /* InfoPlist.strings in Resources */,
 				3639572C158CED3D00D596E7 /* MainStoryboard_iPhone.storyboard in Resources */,
 				3639572F158CED3D00D596E7 /* MainStoryboard_iPad.storyboard in Resources */,
-				36395734158CED3D00D596E7 /* first.png in Resources */,
-				36395736158CED3D00D596E7 /* first@2x.png in Resources */,
-				3639573B158CED3D00D596E7 /* second.png in Resources */,
-				3639573D158CED3D00D596E7 /* second@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -189,8 +238,13 @@
 			files = (
 				36395725158CED3D00D596E7 /* main.m in Sources */,
 				36395729158CED3D00D596E7 /* HRAppDelegate.m in Sources */,
-				36395732158CED3D00D596E7 /* HRFirstViewController.m in Sources */,
-				36395739158CED3D00D596E7 /* HRSecondViewController.m in Sources */,
+				36CEE436158ED2CC002CFEB4 /* GCDAsyncSocket.m in Sources */,
+				36395748158CF3F600D596E7 /* HRStationsViewController.m in Sources */,
+				3639574B158CF4B400D596E7 /* HRStation.m in Sources */,
+				3639574E158CF9E500D596E7 /* HRStationViewController.m in Sources */,
+				36395751158CFE0200D596E7 /* HRState.m in Sources */,
+				36395754158D05C300D596E7 /* HRStationCell.m in Sources */,
+				362B0294158EEE5F0010516B /* HRSettingViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,6 +326,7 @@
 		36395741158CED3D00D596E7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "HermesRemote/HermesRemote-Prefix.pch";
 				INFOPLIST_FILE = "HermesRemote/HermesRemote-Info.plist";
@@ -283,6 +338,7 @@
 		36395742158CED3D00D596E7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "HermesRemote/HermesRemote-Prefix.pch";
 				INFOPLIST_FILE = "HermesRemote/HermesRemote-Info.plist";
@@ -310,6 +366,7 @@
 				36395742158CED3D00D596E7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
