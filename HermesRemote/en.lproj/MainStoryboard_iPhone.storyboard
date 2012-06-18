@@ -172,11 +172,11 @@
             </objects>
             <point key="canvasLocation" x="26" y="-187"/>
         </scene>
-        <!--Setting View Controller - Connect-->
+        <!--Connect View Controller - Connect-->
         <scene sceneID="Y1R-XZ-d6b">
             <objects>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="NVn-Q0-aZF" userLabel="First Responder" sceneMemberID="firstResponder"/>
-                <viewController id="RHl-Rl-01C" customClass="HRSettingViewController" sceneMemberID="viewController">
+                <viewController id="RHl-Rl-01C" customClass="HRConnectViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="F9z-41-gMM">
                         <rect key="frame" x="0.0" y="64" width="320" height="416"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -237,14 +237,6 @@
         </scene>
     </scenes>
     <classes>
-        <class className="HRSettingViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/HRSettingViewController.h"/>
-            <relationships>
-                <relationship kind="action" name="connect:"/>
-                <relationship kind="outlet" name="address" candidateClass="UITextField"/>
-                <relationship kind="outlet" name="port" candidateClass="UITextField"/>
-            </relationships>
-        </class>
         <class className="HRStationCell" superclassName="UITableViewCell">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/HRStationCell.h"/>
         </class>

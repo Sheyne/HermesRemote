@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		362B0294158EEE5F0010516B /* HRSettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 362B0293158EEE5F0010516B /* HRSettingViewController.m */; };
+		362B0294158EEE5F0010516B /* HRConnectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 362B0293158EEE5F0010516B /* HRConnectViewController.m */; };
 		36395719158CED3D00D596E7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36395718158CED3D00D596E7 /* UIKit.framework */; };
 		3639571B158CED3D00D596E7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3639571A158CED3D00D596E7 /* Foundation.framework */; };
 		3639571D158CED3D00D596E7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3639571C158CED3D00D596E7 /* CoreGraphics.framework */; };
@@ -27,8 +27,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		362B0292158EEE5F0010516B /* HRSettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HRSettingViewController.h; sourceTree = "<group>"; };
-		362B0293158EEE5F0010516B /* HRSettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HRSettingViewController.m; sourceTree = "<group>"; };
+		362B0292158EEE5F0010516B /* HRConnectViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; path = HRConnectViewController.h; sourceTree = "<group>"; };
+		362B0293158EEE5F0010516B /* HRConnectViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HRConnectViewController.m; sourceTree = "<group>"; };
 		36395714158CED3D00D596E7 /* HermesRemote.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HermesRemote.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		36395718158CED3D00D596E7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		3639571A158CED3D00D596E7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -141,8 +141,8 @@
 		365D0AA5158F87430080001A /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				362B0292158EEE5F0010516B /* HRSettingViewController.h */,
-				362B0293158EEE5F0010516B /* HRSettingViewController.m */,
+				362B0292158EEE5F0010516B /* HRConnectViewController.h */,
+				362B0293158EEE5F0010516B /* HRConnectViewController.m */,
 				3639574C158CF9E500D596E7 /* HRStationViewController.h */,
 				3639574D158CF9E500D596E7 /* HRStationViewController.m */,
 				36395746158CF3F600D596E7 /* HRStationsViewController.h */,
@@ -244,7 +244,7 @@
 				3639574E158CF9E500D596E7 /* HRStationViewController.m in Sources */,
 				36395751158CFE0200D596E7 /* HRState.m in Sources */,
 				36395754158D05C300D596E7 /* HRStationCell.m in Sources */,
-				362B0294158EEE5F0010516B /* HRSettingViewController.m in Sources */,
+				362B0294158EEE5F0010516B /* HRConnectViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
